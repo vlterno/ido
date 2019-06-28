@@ -1,1 +1,2 @@
-# It's my portfolio)
+#Idea Design Project
+#(Skolkovo Industrial Design Hackathon 2019)
