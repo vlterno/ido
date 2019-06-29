@@ -29,11 +29,14 @@ html, body {
 }
 
 .page-4 {
-/*	background-color: #ededed;*/
-	background-color: #eeeeee;
+	/*background-image: url("../img/003.jpeg");*/
+	    /*background-color: #e7ebfe;*/
+	background-position: center;
+	background-color: #ffffff;
 	font-weight: 300;
-	padding-top: 25px;
+	/*padding-top: 25px;*/
 	padding-bottom: 0px;
+	height: 100%;
 }
 
 .page-5 {

@@ -44,124 +44,46 @@
 </head>
 
 <body>
-	<div class="page-1">
-		<div class="container">
-			<div class="row">
-				<div class="twelve col">
-					<h4>Меня зовут Владимир Терновых</h4>
-				</div>
-			</div>
-			<div class="row">
-				<div class="three col photo-col">
-					<img class="utilite-full photo" src="img/1.png">
-				</div>
-				<div class="six col">
-					<ul>
-						<li>мне 24 года, живу в Москве</li>
-						<li>закончил МГТУ имени Н.Э. Баумана в 2016 г.</li>
-						<li>инженер-конструктор, инженер-метролог</li>
-						<li>увлекаюсь веб- и 3D-разработкой</li>
-						<li>инженер-конструктор Студии Дизайна <a target="blank" href="http://www.art-up.ru">ART-UP</a></li>
-						<li>ментор проекта <a target="blank" href="https://heisen.me">Heisen.me</a></li>
-						<p class="main-phone">тел.: +7 (915) 337-88-50</p>
-						<p class="main-mail">email: <a class="link-mail" href="mailto:vlterno@gmail.com">vlterno@gmail.com</a></p>
-						<p class="main-mail">ART-UP: <a class="link-mail" href="mailto:v_ternovykh@art-up.ru">v_ternovykh@art-up.ru</a></p>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="page-2 mob">
-		<div class="container">
-			<div class="row">
-				<div class="twelve col tit">
-					<h4>Я умею и люблю</h4>
-				</div>
-			</div>
-			<div class="row">
-				<div class="three col img-mob">
-					<img class="utilite-full img-size" src="img/111.png">
-				</div>
-				<div class="three col">
-					<h5 class="mini-tit">Моделировать</h5>
-					<li>CATIA</li>
-					<li>Autodesk Inventor</li>
-					<li>Fusion 360</li>
-					<li>3ds Max</li>
-					<li>Autodesk AutoCAD</li>
-				</div>
-				<div class="three col img-mob">
-					<img class="utilite-full img-size" src="img/222.png">
-				</div>
-				<div class="three col">
-					<h5 class="mini-tit">ЕСКД и ЕСТД</h5>
-					<li>Разработка и оформление КД и ТД</li>
-					<li>Метрологическая экспертиза чертежей</li>
-				</div>
-			</div>
-			<div class="row">
-				<div class="three col img-mob">
-					<img class="utilite-full img-size" src="img/444.png">
-				</div>		
-				<div class="three col">
-					<h5 class="mini-tit">Программировать</h5>
-					<li>Python</li>
-					<li>JavaScript</li>
-					<li>JSX, webpack, React, Redux</li>
-				</div>		
-				<div class="three col img-mob">
-					<img class="utilite-full img-size" src="img/333.png">
-				</div>
-				<div class="three col">
-					<h5 class="mini-tit">Веб-дизайн</h5>
-					<li>HTML5, CSS, JS</li>
-					<li>Corel Draw</li>
-					<li>Adobe Animator</li>
-					<li>Adobe Photoshop</li>
-				</div>
-			</div>	
-		</div>
-	</div>
-
+	
 	<div class="page-4">
-		<div class="container">
-			<div class="row project">
-				<h5>Док-станция и iPhone</h5>
-				<li>Док-станция под стандартный провод зарядки и смоделированная копия iPhone 6</li>
-				<li>Модель можно зуммировать и вращать</li>
-			</div>
+		<div class="container" style="">
 			<div class="row">
 				<div class="twelve col">
-					<div style="max-width: 1394px; max-height: 943px;">
-					  <div style="left: 0px; width: 100%; height: 0px; position: relative; padding-bottom: 67.6471%; overflow: hidden;">
-					    <iframe src="vloder_VR.17.html"
-					                 allowfullscreen
-					                 style="position: absolute; top: 0px; left: 0px; height: 100%; width: 1px; min-width: 100%; *width: 100%;"
-					                 frameborder="0"
-					                 scrolling="no">
-					    </iframe>
-					  </div>
+					<div class='item-center'>
+						<div style="left: 0px; width: 100%; height: 0px; position: relative; padding-bottom: 66.875%; overflow: hidden; z-index: 0;">
+							<iframe src="site_render_XR.5.html"
+								allowfullscreen
+								style="position: absolute; height: 100%; width: 100px; min-width: 100%; width: 100%; top: 15%;"
+								frameborder="0"
+								scrolling="no">
+							</iframe>
+							<div id='pz'></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
-	<script type="text/javascript">
-		var vid = document.getElementById('myvid');
-		vid.pause();
-		var intervalID = window.setInterval(myCallback, 1000);
-		function myCallback() {
-			window.onscroll = function(){
-				if ((window.pageYOffset > 2300) && (window.pageYOffset < 2900)){
-					vid.play();
-				} else {
-					vid.pause();
-				};
+
+<script type="text/javascript">
+	var vid = document.getElementById('myvid');
+	vid.pause();
+	var intervalID = window.setInterval(myCallback, 1000);
+	function myCallback() {
+		window.onscroll = function(){
+			if ((window.pageYOffset > 2300) && (window.pageYOffset < 2900)){
+				vid.play();
+			} else {
+				vid.pause();
 			};
-		}
-	</script>
+		};
+	}
+
+	$( document ).ready() {
+		$()
+	}
+</script>
 
 </body>
 </html>
